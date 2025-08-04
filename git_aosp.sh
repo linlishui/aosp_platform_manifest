@@ -2,7 +2,7 @@
 
 # 默认配置
 DEFAULT_HOST="https://aosp.tuna.tsinghua.edu.cn/"
-DEFAULT_BRANCH="android-12.0.0_r34"
+DEFAULT_BRANCH="android12-platform-release"
 
 # 初始化变量
 GIT_HOST="$DEFAULT_HOST"
@@ -19,9 +19,9 @@ show_help() {
     echo ""
     echo "示例:"
     echo "  $0 platform/frameworks/base"
-    echo "  $0 -b android-13.0.0_r1 platform/frameworks/base"
+    echo "  $0 -b android12-platform-release platform/frameworks/base"
     echo "  $0 -h https://android.googlesource.com/ platform/frameworks/base"
-    echo "  $0 -h https://android.googlesource.com/ -b android-13.0.0_r1 platform/frameworks/base"
+    echo "  $0 -h https://android.googlesource.com/ -b android12-platform-release platform/frameworks/base"
 }
 
 # 解析命令行参数
